@@ -1,0 +1,16 @@
+.Enrollment{
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  align-items: center;
+}
+
+.lead-in{
+  display: flex;
+}
+
+.lead-in-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
