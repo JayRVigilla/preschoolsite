@@ -1,0 +1,31 @@
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nameplate{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.click-logo{
+    text-align: center;
+}
+
+img{
+  margin: 3vh;
+  width: 40%;
+}
+
+.links-wrapper{
+  margin: 0 18%;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
