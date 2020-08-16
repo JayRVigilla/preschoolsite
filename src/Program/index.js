@@ -4,6 +4,14 @@ import Explorers from '../Explorers';
 import Mountaineers from '../Mountaineers';
 
 function Home() {
+  const styleObj = {
+  border: 0,
+  width: 800,
+  height: 600,
+  frameborder: 0,
+  scrolling: "no",
+  }
+
   return (
     <div className="Home">
 
@@ -41,9 +49,11 @@ function Home() {
       <Mountaineers />
 
       <div className="calendar">
-        <p>Google Calendar rendered here</p>
+        <iframe title="academic-calendar"
+          src="https://calendar.google.com/calendar/embed?src=k02s89279qut6q2n3ia555do1g%40group.calendar.google.com&ctz=America%2FLos_Angeles"
+          style={styleObj}></iframe>
       </div>
-      
+
     </div>
   );
 }

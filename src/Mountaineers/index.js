@@ -1,6 +1,6 @@
 import React from 'react';
 import './Mountaineers.css';
-import { UncontrolledCarousel } from 'reactstrap';
+// import { UncontrolledCarousel } from 'reactstrap';
 
 function Mountaineers() {
   return (
